@@ -1,0 +1,154 @@
+element.style {
+    text-align: center;
+    white-space: pre-wrap;
+}
+.sqs-block-html .sqs-block-content>*:first-child {
+    margin-top: 0;
+}
+h3 {
+    color: var(--headingMediumColor);
+}
+h1, h2, h3, h4 {
+    margin: 2rem 0;
+}
+@media screen and (max-width: 767px) and (orientation: portrait){
+h3 {
+    font-size: calc((2.2 - 1) * calc(.012 * min(100vh, 900px)) + 1rem);
+}
+h3 {
+    line-height: calc(1.4 * (1 + (1 - 2.2)/25));
+}
+h1, h2, h3, h4 {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    line-height: 1.2em;
+    font-family: ltc-bodoni-175;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.4em;
+    font-size: 2rem;
+}
+user agent stylesheet
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.page-section {
+    color: var(--paragraphMediumColor);
+}}
+@media screen and (max-width: 767px) and (orientation: portrait){
+.site-wrapper, .sqs-catalog-item-list {
+    font-size: calc((1.4 - 1) * calc(.012 * min(100vh, 900px)) + 1rem);
+}
+.site-wrapper, .sqs-catalog-item-list {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    font-family: brandon-grotesque;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.1em;
+    font-size: 1rem;
+    line-height: 1.1;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    background-color: var(--siteBackgroundColor);
+    color: var(--paragraphMediumColor);
+}}
+@supports (--test-custom-property: true){
+body {
+    --sqs-site-gutter: 2vw;
+    --sqs-mobile-site-gutter: 6vw;
+    --sqs-site-max-width: 1500px;
+}
+body {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+html, body {
+    font-size: 16px;
+}}
+:root {
+    --announcement-bar-background-color: hsla(var(--black-hsl),1);
+    --announcement-bar-text-color: hsla(var(--white-hsl),1);
+    --backgroundOverlayColor: hsla(var(--white-hsl),1);
+    --course-item-nav-active-lesson-background-color: hsla(var(--safeDarkAccent-hsl),1);
+    --course-item-nav-active-lesson-text-color: hsla(var(--safeInverseDarkAccent-hsl),1);
+    --course-item-nav-background-color: hsla(var(--lightAccent-hsl),1);
+    --course-item-nav-border-color: hsla(var(--safeInverseLightAccent-hsl),0.25);
+    --course-item-nav-text-color: hsla(var(--safeInverseLightAccent-hsl),1);
+    --course-list-course-item-background: hsla(var(--lightAccent-hsl),1);
+    --course-list-course-item-hover-background: hsla(var(--lightAccent-hsl),0.75);
+    --course-list-course-item-text-color: hsla(var(--black-hsl),1);
+    --course-list-course-chapter-divider-color: hsla(var(--white-hsl),1);
+    --course-list-course-progress-bar-color: hsla(var(--black-hsl),1);
+    --gradientHeaderBackgroundColor: hsla(var(--white-hsl),1);
+    --gradientHeaderBorderColor: hsla(var(--black-hsl),1);
+    --gradientHeaderDropShadowColor: hsla(var(--black-hsl),1);
+    --gradientHeaderNavigationColor: hsla(var(--black-hsl),1);
+    --headingExtraLargeColor: hsla(var(--black-hsl),1);
+    --headingLargeColor: hsla(var(--black-hsl),1);
+    --headingLinkColor: hsla(var(--safeDarkAccent-hsl),1);
+    --headingMediumColor: hsla(var(--black-hsl),1);
+    --headingSmallColor: hsla(var(--black-hsl),1);
+    --image-block-card-image-button-bg-color: hsla(var(--safeDarkAccent-hsl),1);
+    --image-block-card-image-button-text-color: hsla(var(--safeInverseDarkAccent-hsl),1);
+    --image-block-card-image-overlay-color: hsla(var(--darkAccent-hsl),1);
+    --image-block-card-image-subtitle-color: hsla(var(--black-hsl),1);
+    --image-block-card-image-title-bg-color: hsla(var(--white-hsl),0);
+    --image-block-card-image-title-color: hsla(var(--black-hsl),1);
+    --image-block-card-inline-link-color: hsla(var(--black-hsl),1);
+    --image-block-collage-background-color: hsla(var(--lightAccent-hsl),1);
+    --image-block-collage-image-button-bg-color: hsla(var(--safeDarkAccent-hsl),1);
+    --image-block-collage-image-button-text-color: hsla(var(--safeInverseDarkAccent-hsl),1);
+    --image-block-collage-image-overlay-color: hsla(var(--darkAccent-hsl),1);
+    --image-block-collage-image-subtitle-color: hsla(var(--black-hsl),1);
+    --image-block-collage-image-title-bg-color: hsla(var(--white-hsl),0);
+    --image-block-collage-image-title-color: hsla(var(--black-hsl),1);
+    --image-block-collage-inline-link-color: hsla(var(--black-hsl),1);
+    --image-block-overlap-image-button-bg-color: hsla(var(--safeDarkAccent-hsl),1);
+    --image-block-overlap-image-button-text-color: hsla(var(--safeInverseDarkAccent-hsl),1);
+    --image-block-overlap-image-overlay-color: hsla(var(--darkAccent-hsl),1);
+    --image-block-overlap-image-subtitle-color: hsla(var(--black-hsl),1);
+    --image-block-overlap-image-title-bg-color: hsla(var(--white-hsl),1);
+    --image-block-overlap-image-title-color: hsla(var(--black-hsl),1);
+    --image-block-overlap-inline-link-color: hsla(var(--black-hsl),1);
+    --image-block-overlay-color: hsla(var(--black-hsl),0.5);
+    --image-block-poster-image-button-bg-color: hsla(var(--safeDarkAccent-hsl),1);
+    --image-block-poster-image-button-text-color: hsla(var(--safeInverseDarkAccent-hsl),1);
+    --image-block-poster-image-overlay-color: hsla(var(--darkAccent-hsl),1);
+    --image-block-poster-image-subtitle-color: hsla(var(--white-hsl),1);
+    --image-block-poster-image-title-bg-color-v2: hsla(var(--white-hsl),0);
+/* Show All Properties (215 more) */
+}
+:root {
+    --white-hsl: 0,0%,100%;
+    --black-hsl: 0,0%,0%;
+    --safeLightAccent-hsl: 0,0%,100%;
+    --safeDarkAccent-hsl: 0,0%,0%;
+    --safeInverseAccent-hsl: 0,0%,100%;
+    --safeInverseLightAccent-hsl: 0,0%,0%;
+    --safeInverseDarkAccent-hsl: 0,0%,100%;
+    --accent-hsl: 0,0%,0%;
+    --lightAccent-hsl: 0,0%,96.86%;
+    --darkAccent-hsl: 0,0%,30.2%;
+}
+@media screen and (max-width: 991px){
+html {
+    font-size: min(16px, 16px);
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}}

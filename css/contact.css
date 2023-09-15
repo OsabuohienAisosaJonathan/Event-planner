@@ -1,0 +1,253 @@
+
+:root {
+    --announcement-bar-background-color: hsla(var(--black-hsl),1);
+    --announcement-bar-text-color: hsla(var(--white-hsl),1);
+    --backgroundOverlayColor: hsla(var(--white-hsl),1);
+    --course-item-nav-active-lesson-background-color: hsla(var(--safeDarkAccent-hsl),1);
+    --course-item-nav-active-lesson-text-color: hsla(var(--safeInverseDarkAccent-hsl),1);
+    --course-item-nav-background-color: hsla(var(--lightAccent-hsl),1);
+    --course-item-nav-border-color: hsla(var(--safeInverseLightAccent-hsl),0.25);
+    --course-item-nav-text-color: hsla(var(--safeInverseLightAccent-hsl),1);
+    --course-list-course-item-background: hsla(var(--lightAccent-hsl),1);
+    --course-list-course-item-hover-background: hsla(var(--lightAccent-hsl),0.75);
+    --course-list-course-item-text-color: hsla(var(--black-hsl),1);
+    --course-list-course-chapter-divider-color: hsla(var(--white-hsl),1);
+    --course-list-course-progress-bar-color: hsla(var(--black-hsl),1);
+    --gradientHeaderBackgroundColor: hsla(var(--white-hsl),1);
+    --gradientHeaderBorderColor: hsla(var(--black-hsl),1);
+    --gradientHeaderDropShadowColor: hsla(var(--black-hsl),1);
+    --gradientHeaderNavigationColor: hsla(var(--black-hsl),1);
+    --headingExtraLargeColor: hsla(var(--black-hsl),1);
+    --headingLargeColor: hsla(var(--black-hsl),1);
+    --headingLinkColor: hsla(var(--safeDarkAccent-hsl),1);
+    --headingMediumColor: hsla(var(--black-hsl),1);
+    --headingSmallColor: hsla(var(--black-hsl),1);
+    --image-block-card-image-button-bg-color: hsla(var(--safeDarkAccent-hsl),1);
+    --image-block-card-image-button-text-color: hsla(var(--safeInverseDarkAccent-hsl),1);
+    --image-block-card-image-overlay-color: hsla(var(--darkAccent-hsl),1);
+    --image-block-card-image-subtitle-color: hsla(var(--black-hsl),1);
+    --image-block-card-image-title-bg-color: hsla(var(--white-hsl),0);
+    --image-block-card-image-title-color: hsla(var(--black-hsl),1);
+    --image-block-card-inline-link-color: hsla(var(--black-hsl),1);
+    --image-block-collage-background-color: hsla(var(--lightAccent-hsl),1);
+    --image-block-collage-image-button-bg-color: hsla(var(--safeDarkAccent-hsl),1);
+    --image-block-collage-image-button-text-color: hsla(var(--safeInverseDarkAccent-hsl),1);
+    --image-block-collage-image-overlay-color: hsla(var(--darkAccent-hsl),1);
+    --image-block-collage-image-subtitle-color: hsla(var(--black-hsl),1);
+    --image-block-collage-image-title-bg-color: hsla(var(--white-hsl),0);
+    --image-block-collage-image-title-color: hsla(var(--black-hsl),1);
+    --image-block-collage-inline-link-color: hsla(var(--black-hsl),1);
+    --image-block-overlap-image-button-bg-color: hsla(var(--safeDarkAccent-hsl),1);
+    --image-block-overlap-image-button-text-color: hsla(var(--safeInverseDarkAccent-hsl),1);
+    --image-block-overlap-image-overlay-color: hsla(var(--darkAccent-hsl),1);
+    --image-block-overlap-image-subtitle-color: hsla(var(--black-hsl),1);
+    --image-block-overlap-image-title-bg-color: hsla(var(--white-hsl),1);
+    --image-block-overlap-image-title-color: hsla(var(--black-hsl),1);
+    --image-block-overlap-inline-link-color: hsla(var(--black-hsl),1);
+    --image-block-overlay-color: hsla(var(--black-hsl),0.5);
+    --image-block-poster-image-button-bg-color: hsla(var(--safeDarkAccent-hsl),1);
+    --image-block-poster-image-button-text-color: hsla(var(--safeInverseDarkAccent-hsl),1);
+    --image-block-poster-image-overlay-color: hsla(var(--darkAccent-hsl),1);
+    --image-block-poster-image-subtitle-color: hsla(var(--white-hsl),1);
+    --image-block-poster-image-title-bg-color-v2: hsla(var(--white-hsl),0);
+/* Show All Properties (215 more) */
+}
+:root {
+    --white-hsl: 0,0%,100%;
+    --black-hsl: 0,0%,0%;
+    --safeLightAccent-hsl: 0,0%,100%;
+    --safeDarkAccent-hsl: 0,0%,0%;
+    --safeInverseAccent-hsl: 0,0%,100%;
+    --safeInverseLightAccent-hsl: 0,0%,0%;
+    --safeInverseDarkAccent-hsl: 0,0%,100%;
+    --accent-hsl: 0,0%,0%;
+    --lightAccent-hsl: 0,0%,96.86%;
+    --darkAccent-hsl: 0,0%,30.2%;
+}
+@media screen and (max-width: 991px) {
+html {
+    font-size: min(16px, 16px);
+}
+html, body {
+    font-size: 16px;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+html[AttributesStyle] {
+    -webkit-locale: "en-US";
+}
+user agent stylesheet
+html {
+    display: block;
+}}
+:root {
+    --announcement-bar-background-color: hsla(var(--black-hsl),1);
+    --announcement-bar-text-color: hsla(var(--white-hsl),1);
+    --backgroundOverlayColor: hsla(var(--white-hsl),1);
+    --course-item-nav-active-lesson-background-color: hsla(var(--safeDarkAccent-hsl),1);
+    --course-item-nav-active-lesson-text-color: hsla(var(--safeInverseDarkAccent-hsl),1);
+    --course-item-nav-background-color: hsla(var(--lightAccent-hsl),1);
+    --course-item-nav-border-color: hsla(var(--safeInverseLightAccent-hsl),0.25);
+    --course-item-nav-text-color: hsla(var(--safeInverseLightAccent-hsl),1);
+    --course-list-course-item-background: hsla(var(--lightAccent-hsl),1);
+    --course-list-course-item-hover-background: hsla(var(--lightAccent-hsl),0.75);
+    --course-list-course-item-text-color: hsla(var(--black-hsl),1);
+    --course-list-course-chapter-divider-color: hsla(var(--white-hsl),1);
+    --course-list-course-progress-bar-color: hsla(var(--black-hsl),1);
+    --gradientHeaderBackgroundColor: hsla(var(--white-hsl),1);
+    --gradientHeaderBorderColor: hsla(var(--black-hsl),1);
+    --gradientHeaderDropShadowColor: hsla(var(--black-hsl),1);
+    --gradientHeaderNavigationColor: hsla(var(--black-hsl),1);
+    --headingExtraLargeColor: hsla(var(--black-hsl),1);
+    --headingLargeColor: hsla(var(--black-hsl),1);
+    --headingLinkColor: hsla(var(--safeDarkAccent-hsl),1);
+    --headingMediumColor: hsla(var(--black-hsl),1);
+    --headingSmallColor: hsla(var(--black-hsl),1);
+    --image-block-card-image-button-bg-color: hsla(var(--safeDarkAccent-hsl),1);
+    --image-block-card-image-button-text-color: hsla(var(--safeInverseDarkAccent-hsl),1);
+    --image-block-card-image-overlay-color: hsla(var(--darkAccent-hsl),1);
+    --image-block-card-image-subtitle-color: hsla(var(--black-hsl),1);
+    --image-block-card-image-title-bg-color: hsla(var(--white-hsl),0);
+    --image-block-card-image-title-color: hsla(var(--black-hsl),1);
+    --image-block-card-inline-link-color: hsla(var(--black-hsl),1);
+    --image-block-collage-background-color: hsla(var(--lightAccent-hsl),1);
+    --image-block-collage-image-button-bg-color: hsla(var(--safeDarkAccent-hsl),1);
+    --image-block-collage-image-button-text-color: hsla(var(--safeInverseDarkAccent-hsl),1);
+    --image-block-collage-image-overlay-color: hsla(var(--darkAccent-hsl),1);
+    --image-block-collage-image-subtitle-color: hsla(var(--black-hsl),1);
+    --image-block-collage-image-title-bg-color: hsla(var(--white-hsl),0);
+    --image-block-collage-image-title-color: hsla(var(--black-hsl),1);
+    --image-block-collage-inline-link-color: hsla(var(--black-hsl),1);
+    --image-block-overlap-image-button-bg-color: hsla(var(--safeDarkAccent-hsl),1);
+    --image-block-overlap-image-button-text-color: hsla(var(--safeInverseDarkAccent-hsl),1);
+    --image-block-overlap-image-overlay-color: hsla(var(--darkAccent-hsl),1);
+    --image-block-overlap-image-subtitle-color: hsla(var(--black-hsl),1);
+    --image-block-overlap-image-title-bg-color: hsla(var(--white-hsl),1);
+    --image-block-overlap-image-title-color: hsla(var(--black-hsl),1);
+    --image-block-overlap-inline-link-color: hsla(var(--black-hsl),1);
+    --image-block-overlay-color: hsla(var(--black-hsl),0.5);
+    --image-block-poster-image-button-bg-color: hsla(var(--safeDarkAccent-hsl),1);
+    --image-block-poster-image-button-text-color: hsla(var(--safeInverseDarkAccent-hsl),1);
+    --image-block-poster-image-overlay-color: hsla(var(--darkAccent-hsl),1);
+    --image-block-poster-image-subtitle-color: hsla(var(--white-hsl),1);
+    --image-block-poster-image-title-bg-color-v2: hsla(var(--white-hsl),0);
+/* Show All Properties (215 more) */
+}
+:root {
+    --white-hsl: 0,0%,100%;
+    --black-hsl: 0,0%,0%;
+    --safeLightAccent-hsl: 0,0%,100%;
+    --safeDarkAccent-hsl: 0,0%,0%;
+    --safeInverseAccent-hsl: 0,0%,100%;
+    --safeInverseLightAccent-hsl: 0,0%,0%;
+    --safeInverseDarkAccent-hsl: 0,0%,100%;
+    --accent-hsl: 0,0%,0%;
+    --lightAccent-hsl: 0,0%,96.86%;
+    --darkAccent-hsl: 0,0%,30.2%;
+}
+@media screen and (max-width: 991px) {
+html {
+    font-size: min(16px, 16px);
+}
+html, body {
+    font-size: 16px;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+html[AttributesStyle] {
+    -webkit-locale: "en-US";
+}
+user agent stylesheet
+html {
+    display: block;
+}}
+:root {
+    --announcement-bar-background-color: hsla(var(--black-hsl),1);
+    --announcement-bar-text-color: hsla(var(--white-hsl),1);
+    --backgroundOverlayColor: hsla(var(--white-hsl),1);
+    --course-item-nav-active-lesson-background-color: hsla(var(--safeDarkAccent-hsl),1);
+    --course-item-nav-active-lesson-text-color: hsla(var(--safeInverseDarkAccent-hsl),1);
+    --course-item-nav-background-color: hsla(var(--lightAccent-hsl),1);
+    --course-item-nav-border-color: hsla(var(--safeInverseLightAccent-hsl),0.25);
+    --course-item-nav-text-color: hsla(var(--safeInverseLightAccent-hsl),1);
+    --course-list-course-item-background: hsla(var(--lightAccent-hsl),1);
+    --course-list-course-item-hover-background: hsla(var(--lightAccent-hsl),0.75);
+    --course-list-course-item-text-color: hsla(var(--black-hsl),1);
+    --course-list-course-chapter-divider-color: hsla(var(--white-hsl),1);
+    --course-list-course-progress-bar-color: hsla(var(--black-hsl),1);
+    --gradientHeaderBackgroundColor: hsla(var(--white-hsl),1);
+    --gradientHeaderBorderColor: hsla(var(--black-hsl),1);
+    --gradientHeaderDropShadowColor: hsla(var(--black-hsl),1);
+    --gradientHeaderNavigationColor: hsla(var(--black-hsl),1);
+    --headingExtraLargeColor: hsla(var(--black-hsl),1);
+    --headingLargeColor: hsla(var(--black-hsl),1);
+    --headingLinkColor: hsla(var(--safeDarkAccent-hsl),1);
+    --headingMediumColor: hsla(var(--black-hsl),1);
+    --headingSmallColor: hsla(var(--black-hsl),1);
+    --image-block-card-image-button-bg-color: hsla(var(--safeDarkAccent-hsl),1);
+    --image-block-card-image-button-text-color: hsla(var(--safeInverseDarkAccent-hsl),1);
+    --image-block-card-image-overlay-color: hsla(var(--darkAccent-hsl),1);
+    --image-block-card-image-subtitle-color: hsla(var(--black-hsl),1);
+    --image-block-card-image-title-bg-color: hsla(var(--white-hsl),0);
+    --image-block-card-image-title-color: hsla(var(--black-hsl),1);
+    --image-block-card-inline-link-color: hsla(var(--black-hsl),1);
+    --image-block-collage-background-color: hsla(var(--lightAccent-hsl),1);
+    --image-block-collage-image-button-bg-color: hsla(var(--safeDarkAccent-hsl),1);
+    --image-block-collage-image-button-text-color: hsla(var(--safeInverseDarkAccent-hsl),1);
+    --image-block-collage-image-overlay-color: hsla(var(--darkAccent-hsl),1);
+    --image-block-collage-image-subtitle-color: hsla(var(--black-hsl),1);
+    --image-block-collage-image-title-bg-color: hsla(var(--white-hsl),0);
+    --image-block-collage-image-title-color: hsla(var(--black-hsl),1);
+    --image-block-collage-inline-link-color: hsla(var(--black-hsl),1);
+    --image-block-overlap-image-button-bg-color: hsla(var(--safeDarkAccent-hsl),1);
+    --image-block-overlap-image-button-text-color: hsla(var(--safeInverseDarkAccent-hsl),1);
+    --image-block-overlap-image-overlay-color: hsla(var(--darkAccent-hsl),1);
+    --image-block-overlap-image-subtitle-color: hsla(var(--black-hsl),1);
+    --image-block-overlap-image-title-bg-color: hsla(var(--white-hsl),1);
+    --image-block-overlap-image-title-color: hsla(var(--black-hsl),1);
+    --image-block-overlap-inline-link-color: hsla(var(--black-hsl),1);
+    --image-block-overlay-color: hsla(var(--black-hsl),0.5);
+    --image-block-poster-image-button-bg-color: hsla(var(--safeDarkAccent-hsl),1);
+    --image-block-poster-image-button-text-color: hsla(var(--safeInverseDarkAccent-hsl),1);
+    --image-block-poster-image-overlay-color: hsla(var(--darkAccent-hsl),1);
+    --image-block-poster-image-subtitle-color: hsla(var(--white-hsl),1);
+    --image-block-poster-image-title-bg-color-v2: hsla(var(--white-hsl),0);
+/* Show All Properties (215 more) */
+}
+:root {
+    --white-hsl: 0,0%,100%;
+    --black-hsl: 0,0%,0%;
+    --safeLightAccent-hsl: 0,0%,100%;
+    --safeDarkAccent-hsl: 0,0%,0%;
+    --safeInverseAccent-hsl: 0,0%,100%;
+    --safeInverseLightAccent-hsl: 0,0%,0%;
+    --safeInverseDarkAccent-hsl: 0,0%,100%;
+    --accent-hsl: 0,0%,0%;
+    --lightAccent-hsl: 0,0%,96.86%;
+    --darkAccent-hsl: 0,0%,30.2%;
+}
+@media screen and (max-width: 991px) {
+html {
+    font-size: min(16px, 16px);
+}
+html, body {
+    font-size: 16px;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+html[AttributesStyle] {
+    -webkit-locale: "en-US";
+}
+user agent stylesheet
+html {
+    display: block;
+}}
